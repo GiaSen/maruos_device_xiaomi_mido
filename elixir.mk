@@ -17,9 +17,10 @@
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/elixir/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_mido
+ELIXIR_BUILDTYPE := OFFICIAL
+PRODUCT_NAME := elixir_mido
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
