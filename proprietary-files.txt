@@ -1,6 +1,6 @@
-# DIRAC audio
-vendor/lib/soundfx/libdirac.so
-vendor/lib/libDiracAPI_SHARED.so
+# Audio dirac
+lib/soundfx/libdirac.so
+lib/libDiracAPI_SHARED.so
 vendor/etc/diracmobile.config
 vendor/lib/libhwdaphal.so
 vendor/lib64/libhwdaphal.so
@@ -648,4 +648,4 @@ lib64/libfpnav.so
 lib64/libfpservice.so
 
 # Wi-Fi
-vendor/bin/wcnss_service
+bin/wcnss_service
