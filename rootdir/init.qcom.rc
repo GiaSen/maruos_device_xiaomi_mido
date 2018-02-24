@@ -331,6 +331,9 @@ on post-fs-data
     # Create /data/vendor/time folder for time-services
     mkdir /data/vendor/time/ 0700 system system
 
+    # Symlink time-services data to data/time, as TWRP doesn't want to look in vendor
+    symlink /data/vendor/time /data/time
+
     mkdir /data/vendor/audio/ 0770 media audio
 
     # Create a folder for audio delta files
@@ -423,7 +426,6 @@ on property:sys.boot_completed=1
     chown media audio /sys/kernel/wcd_cpe0/fw_name
 
 on property:vold.decrypt=trigger_restart_framework
-    start config_bt_addr
     start wcnss-service
 
 on property:persist.env.fastdorm.enabled=true
@@ -470,26 +472,6 @@ service start_hci_filter /system/vendor/bin/wcnss_filter
     group bluetooth diag system wakelock
     seclabel u:r:bluetooth:s0
     disabled
-
-service config_bt_addr /system/vendor/bin/btnvtool -O
-    class core
-    user bluetooth
-    group bluetooth radio
-    oneshot
-
-service hciattach /system//vendor/bin/hci_qcomm_init -e
-    class late_start
-    user bluetooth
-    group bluetooth net_bt_admin
-    disabled
-    oneshot
-
-on property:bluetooth.hciattach=true
-    start hciattach
-    setprop bluetooth.status on
-
-on property:bluetooth.hciattach=false
-    setprop bluetooth.status off
 
 service netmgrd /system/vendor/bin/netmgrd
     class main
