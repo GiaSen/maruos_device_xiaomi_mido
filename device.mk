@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
     libgenlock \
+    libjni_livedisplay \
     libtinyxml
 
 PRODUCT_PACKAGES += \
