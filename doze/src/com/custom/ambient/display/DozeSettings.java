@@ -20,7 +20,7 @@ package com.custom.ambient.display;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class DozeSettingsActivity extends PreferenceActivity {
+public class DozeSettings extends PreferenceActivity {
 
     private static final String TAG_DOZE = "doze";
 
