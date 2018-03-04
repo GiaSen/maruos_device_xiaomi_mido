@@ -53,11 +53,4 @@
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">Kapsa</string>
     <string name="pocket_gesture_summary">Zobrazit upozornění při vyjmutí telefonu z kapsy</string>
-
-    <!-- Dialog texts -->
-    <string name="dialog_ok">OK</string>
-
-    <!-- Help texts -->
-    <string name="doze_settings_help_title">Informace</string>
-    <string name="doze_settings_help_text">Tyto funkce využívají pro zobrazení upozornění změny stavu senzorů. Zvolený senzor je povolen pouze tehdy, když telefon dostane nové upozornění, což pomáhá snižovat spotřebu baterie. Je také možné zapnout zvolený snímač ihned po vypnutí obrazovky, to ale způsobí rychlejší vybíjení baterie.</string>
 </resources>

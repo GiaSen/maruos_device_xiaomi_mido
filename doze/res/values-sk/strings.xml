@@ -53,11 +53,4 @@
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">Vrecko</string>
     <string name="pocket_gesture_summary">Zobraziť upozornenia pri vybratí telefónu z vrecka</string>
-
-    <!-- Dialog texts -->
-    <string name="dialog_ok">OK</string>
-
-    <!-- Help texts -->
-    <string name="doze_settings_help_title">Informácie</string>
-    <string name="doze_settings_help_text">Tieto funkcie využívajú pre zobrazenie upozornení zmeny stavu senzorov. Zvolený senzor je povolený len vtedy, keď telefón dostane nové upozornenie, čo pomáha znižovať spotrebu batérie. Je tiež možné zapnúť zvolený snímač ihneď po vypnutí obrazovky, to ale spôsobí rýchlejšie vybíjanie batérie.</string>
 </resources>

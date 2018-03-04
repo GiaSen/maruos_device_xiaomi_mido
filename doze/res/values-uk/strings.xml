@@ -53,11 +53,4 @@
   <!-- Pocket gesture -->
   <string name="pocket_gesture_title">Кишеня</string>
   <string name="pocket_gesture_summary">Показувати сповіщення при вийманні пристрою з кишені</string>
-
-  <!-- Dialog texts -->
-  <string name="dialog_ok">OK</string>
-
-  <!-- Help texts -->
-  <string name="doze_settings_help_title">Інформація</string>
-  <string name="doze_settings_help_text">Ці функції використовують події датчиків для показу сповіщень. Датчик перевіряється лише під час надходження нового сповіщення, що дозволяє економити заряд батареї. Можна активувати датчики одразу після вимкнення екрану пристрою, але це призведе до прискореного розряду батареї.</string>
 </resources>

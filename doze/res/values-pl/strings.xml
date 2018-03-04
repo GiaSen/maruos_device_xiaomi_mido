@@ -51,11 +51,4 @@
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">Kieszeń</string>
     <string name="pocket_gesture_summary">Wyświetlaj powiadomienia, gdy urządzenie zostanie wyjęte z kieszeni</string>
-
-    <!-- Dialog texts -->
-    <string name="dialog_ok">OK</string>
-
-    <!-- Help texts -->
-    <string name="doze_settings_help_title">Informacja</string>
-    <string name="doze_settings_help_text">Te funkcje wykorzystują zdarzenia z czujników do wyświetlania powiadomień. Czujnik jest sprawdzany tylko po otrzymaniu nowego powiadomienia, co pomaga oszczędzać baterię. Możliwe jest natychmiastowe włączenie czujnika, gdy ekran urządzenia jest wyłączony, jednak może to przyspieszyć rozładowanie baterii.</string>
 </resources>
