@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.custom.ambient.display;
+package org.lineageos.settings.doze;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package com.custom.ambient.display;
+package org.lineageos.settings.doze;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class DozeSettings extends PreferenceActivity {
+public class DozeSettingsActivity extends PreferenceActivity {
 
     private static final String TAG_DOZE = "doze";
 
