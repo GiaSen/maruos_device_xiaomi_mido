@@ -352,7 +352,6 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wificond \
     wifilogd \
-    wcnss_service \
     wpa_supplicant \
     wpa_supplicant.conf
 
