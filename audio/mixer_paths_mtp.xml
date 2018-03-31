@@ -1086,7 +1086,7 @@
     <path name="adc3">
         <ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC1 MUX" value="ADC2" />
-	<ctl name="MI2S_TX Channels" value="One" />
+        <ctl name="MI2S_TX Channels" value="One" />
         <ctl name="ADC2 MUX" value="INP3" />
     </path>
 
@@ -1152,8 +1152,8 @@
     <path name="handset-mic">
         <path name="adc1" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
-        <ctl name="DEC1 Volume" value="94" />
-        <ctl name="DEC2 Volume" value="94" />
+        <ctl name="DEC1 Volume" value="96" />
+        <ctl name="DEC2 Volume" value="96" />
     </path>
 
     <path name="headphones">
@@ -1172,8 +1172,8 @@
         <path name="adc2" />
         <ctl name="ADC2 MUX" value="INP2" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
-        <ctl name="DEC1 Volume" value="94" />
-        <ctl name="DEC2 Volume" value="94" />
+        <ctl name="DEC1 Volume" value="89" />
+        <ctl name="DEC2 Volume" value="89" />
     </path>
 
     <path name="sub-mic">
@@ -1200,7 +1200,6 @@
         <ctl name="RX2 MIX2 INP1" value="IIR1" />
         <ctl name="IIR1 INP1 Volume" value="53" />
     </path>
-
 
     <path name="voice-handset">
         <path name="handset" />
@@ -1287,6 +1286,7 @@
 
     <path name="bt-sco-mic-wb">
     </path>
+
     <path name="usb-headset-mic">
     </path>
 
@@ -1314,6 +1314,8 @@
 
     <path name="voice-dmic-ef">
         <path name="dmic-endfire" />
+        <ctl name="DEC1 Volume" value="89" />
+        <ctl name="DEC2 Volume" value="89" />
     </path>
 
     <path name="voice-speaker-dmic-ef">
@@ -1337,6 +1339,8 @@
 
     <path name="handset-stereo-dmic-ef">
         <path name="speaker-dmic-endfire" />
+        <ctl name="DEC1 Volume" value="96" />
+        <ctl name="DEC2 Volume" value="96" />
     </path>
 
     <path name="speaker-stereo-dmic-ef">
