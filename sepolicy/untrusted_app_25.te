@@ -1,1 +1,1 @@
-allow untrusted_app_25 proc_stat:file read;
+allow untrusted_app_25 proc_stat:file { getattr open read };
