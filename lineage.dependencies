@@ -1,0 +1,14 @@
+[
+ {
+   "remote"     : "github",
+   "revision"   : "oreo-mr1",
+   "repository" : "KudProject/kernel_xiaomi_msm8953-3.18",
+   "target_path": "kernel/xiaomi/msm8953"
+ },
+ {
+   "remote"     : "github",
+   "revision"   : "o-mido",
+   "repository" : "TeamHorizon/proprietary_vendor_xiaomi/",
+   "target_path": "vendor/xiaomi"
+ }
+]
